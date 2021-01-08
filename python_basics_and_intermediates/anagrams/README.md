@@ -21,5 +21,28 @@ tones
 onset
 What letters would you like to find the anagram of? 
 ```
+<br></br>
 
+# How it works
+There are three other files in spite of this README file under the folder of this repo.  
+- `wordsets.py` is the program that load the raw data (the words bank) into appropriate data struture (a `set` in this example). There are **two word banks** with which you can test the function: the `english_words` variable refers to a set of mostly all English words (it's stored in the `words.txt` file). The `english_words_small` variable refers to a set of the following 13 english words:
+```
+open
+peon
+nope
+stone
+notes
+onset
+tones
+cone
+pots
+post
+stop
+opts
+tops
+```
+You can use it as an example test or proof of concept.
+
+- `words.txt` is the words dictionary. You can load it by `wordsets.py` program.
+- `anagrams.py` is the main program that takes in your entry and feedsback the anagram words accordingly.
 
